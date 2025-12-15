@@ -98,19 +98,24 @@ ECS CLI is a command-line tool that simplifies the process of creating and manag
 ```bash
 $ ecs-cli configure --region <region> --access-key <access-key> --secret-key <secret-key> --cluster <cluster-name>
 ```
+<img width="1578" height="227" alt="Screenshot 2025-12-13 144807" src="https://github.com/user-attachments/assets/7745b349-5d90-4ae0-898d-f85efa929a09" />
+
 
 ### Configuring AWS Credentials:
 
 Ensure you have the necessary AWS credentials configured using `aws configure` command.
+<img width="932" height="127" alt="Screenshot 2025-12-13 121717" src="https://github.com/user-attachments/assets/2fffa736-8269-4740-9ba5-831739048ced" />
 
 ## 7. Deploying Your First Application on ECS
 
 In this section, we'll deploy a simple web application using ECS.
 
 ### Preparing the Application:
+<img width="1426" height="74" alt="Screenshot 2025-12-13 145454" src="https://github.com/user-attachments/assets/924dbf38-7669-4827-91a6-bcf07dacb797" />
 
 1. Create a Dockerfile for your web application.
 2. Build the Docker image and push it to Amazon ECR (Elastic Container Registry).
+<img width="1448" height="301" alt="Screenshot 2025-12-13 150147" src="https://github.com/user-attachments/assets/e9b44bea-5854-4d19-8509-509dd5039f2d" />
 
 ### Creating a Task Definition:
 
@@ -129,5 +134,6 @@ Use the ECS CLI or the AWS Management Console to deploy the service.
 Monitor your ECS service using AWS CloudWatch metrics and logs.
 
 ## 8. Conclusion
+<img width="1919" height="465" alt="Screenshot 2025-12-13 163405" src="https://github.com/user-attachments/assets/5b560869-1bc9-4df8-920c-d9c1f7346881" />
 
 In conclusion, AWS ECS offers a robust and user-friendly platform for deploying and managing containerized applications. We covered the fundamentals of ECS, compared it with its alternatives, discussed its pros and cons, and walked through the installation, configuration, and deployment of a sample application.
